@@ -27,6 +27,13 @@ public class MainApp6 {
 		objC1.display();
 		objC2.display();
 		objC3.display();
+		
+		objA = null;
+		objB1 = null;
+		objB2 = null;
+		objC1 = null;
+		objC2 = null;
+		objC3 = null;
 	}
 
 }
