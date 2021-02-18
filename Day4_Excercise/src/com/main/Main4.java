@@ -15,6 +15,8 @@ public class Main4 {
 		System.out.println("in main(): ");
 		System.out.println("objA.a = " + objA.getA());
 		objA.setA(222);
+		
+		objA=null;
 	}
 
 }
