@@ -20,5 +20,8 @@ public class MainApp5 {
 		objB.setSecondClass(333.33);
 		System.out.println("objA.a = " + objA.getFirstClass());
 		System.out.println("objB.b = " + objB.getSecondClass());
+		
+		objA = null;
+		objB = null;
 	}
 }
