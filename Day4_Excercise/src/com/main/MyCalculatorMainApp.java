@@ -22,6 +22,7 @@ public class MyCalculatorMainApp {
 		System.out.println(myCalc.divisor_sum(num));
 
 		in.close();
+		myCalc = null;
 	}
 
 }
